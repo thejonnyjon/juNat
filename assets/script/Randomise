@@ -1,0 +1,47 @@
+var logos = [
+    'assets/img/Monday.gif', //logo[0]
+    'assets/img/Tuesday.gif', //logo[1]
+    'assets/img/Wednesday.gif', //logo[2]
+    'assets/img/Thursday.gif', //logo[3]
+    'assets/img/Friday.gif', //logo[4]
+    'assets/img/Saturday.gif', //logo[5]
+    'assets/img/Sunday.gif' //logo[6]
+];
+
+onload = function () {
+    const today = new Date();
+    today.setDate(13);
+    //var today = new Date();
+    var days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+    var day = days[ today.getDay() ];
+    console.log(today);
+    
+    if(day == 'Monday') {
+        document.getElementById('logo').src = logos[0];
+        document.getElementById('logo').width = "500";
+    }
+    else if(day == 'Tuesday') {
+        document.getElementById('logo').src = logos[1];
+        document.getElementById('logo').width = "300";
+    }
+    else if(day == 'Wednesday') {
+        document.getElementById('logo').src = logos[2];
+        document.getElementById('logo').width = "300";
+    }
+    else if(day == 'Thursday') {
+        document.getElementById('logo').src = logos[3];
+        document.getElementById('logo').width = "500";
+    }
+    else if(day == 'Friday') {
+        document.getElementById('logo').src = logos[4];
+        document.getElementById('logo').width = "400";
+    }
+    else if(day == 'Saturday') {
+        document.getElementById('logo').src = logos[5];
+        document.getElementById('logo').width = "500";
+    }
+    else if(day == 'Sunday') {
+        document.getElementById('logo').src = logos[6];
+        document.getElementById('logo').width = "300";
+    }
+}
