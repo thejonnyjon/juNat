@@ -9,12 +9,11 @@ var logos = [
 ];
 
 onload = function () {
-    const today = new Date();
-    today.setDate(13);
-    //var today = new Date();
+    //const today = new Date();
+    //today.setDate(13);
+    var today = new Date();
     var days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
     var day = days[ today.getDay() ];
-    console.log(today);
     
     if(day == 'Monday') {
         document.getElementById('logo').src = logos[0];
