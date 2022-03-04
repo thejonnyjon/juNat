@@ -133,11 +133,21 @@ ul.grid{
 .hero h1{
 	font: bold 50px 'Open Sans', sans-serif;
 	margin-bottom: 15px;
+	user-select: none; /* supported by Chrome and Opera */
+	-webkit-user-select: none; /* Safari */
+	-khtml-user-select: none; /* Konqueror HTML */
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* Internet Explorer/Edge */
 }
 
 .hero h3{
 	font: normal 20px 'Open Sans', sans-serif;
 	margin-bottom: 40px;
+	user-select: none; /* supported by Chrome and Opera */
+	-webkit-user-select: none; /* Safari */
+	-khtml-user-select: none; /* Konqueror HTML */
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* Internet Explorer/Edge */
 }
 
 .hero a.btn{
@@ -152,10 +162,20 @@ ul.grid{
 
 	.hero h1{
 		font-size: 30px;
+		user-select: none; /* supported by Chrome and Opera */
+		-webkit-user-select: none; /* Safari */
+		-khtml-user-select: none; /* Konqueror HTML */
+		-moz-user-select: none; /* Firefox */
+		-ms-user-select: none; /* Internet Explorer/Edge */
 	}
 
 	.hero h3{
 		font-size: 20px;
+		user-select: none; /* supported by Chrome and Opera */
+		-webkit-user-select: none; /* Safari */
+		-khtml-user-select: none; /* Konqueror HTML */
+		-moz-user-select: none; /* Firefox */
+		-ms-user-select: none; /* Internet Explorer/Edge */
 	}
 
 	.hero a.btn{

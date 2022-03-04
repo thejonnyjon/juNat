@@ -19,29 +19,36 @@ onload = function () {
     if(day == 'Monday') {
         document.getElementById('logo').src = logos[0];
         document.getElementById('logo').width = "500";
+        document.getElementById('logo').setAttribute('draggable', false);
     }
     else if(day == 'Tuesday') {
         document.getElementById('logo').src = logos[1];
         document.getElementById('logo').width = "300";
+        document.getElementById('logo').setAttribute('draggable', false);
     }
     else if(day == 'Wednesday') {
         document.getElementById('logo').src = logos[2];
         document.getElementById('logo').width = "300";
+        document.getElementById('logo').setAttribute('draggable', false);
     }
     else if(day == 'Thursday') {
         document.getElementById('logo').src = logos[3];
         document.getElementById('logo').width = "500";
+        document.getElementById('logo').setAttribute('draggable', false);
     }
     else if(day == 'Friday') {
         document.getElementById('logo').src = logos[4];
         document.getElementById('logo').width = "400";
+        document.getElementById('logo').setAttribute('draggable', false);
     }
     else if(day == 'Saturday') {
         document.getElementById('logo').src = logos[5];
         document.getElementById('logo').width = "500";
+        document.getElementById('logo').setAttribute('draggable', false);
     }
     else if(day == 'Sunday') {
         document.getElementById('logo').src = logos[6];
         document.getElementById('logo').width = "300";
+        document.getElementById('logo').setAttribute('draggable', false);
     }
 }
